@@ -1,0 +1,221 @@
+.grid-head {
+  width: 100%;
+}
+
+.body {
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.grid-container {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: none;
+  grid-template-rows: none;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  padding-bottom: 0;
+  background-color: rgb(9, 165, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.item-1 {
+  width: auto;
+  height: auto;
+  background: rgb(19, 185, 0);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/windows.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  margin-top: 50px;
+}
+
+.item-1:hover {
+  transform: translateY(-5px);
+}
+
+.item-2 {
+  width: auto;
+  height: auto;
+  background: rgb(0, 208, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/wifi.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 3/5;
+  grid-row: 1/2;
+  margin-top: 50px;
+}
+
+.item-2:hover {
+  transform: translateY(-5px);
+}
+
+.item-3 {
+  width: auto;
+  height: auto;
+  background: rgb(255, 98, 0);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/Instagram.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.item-3:hover {
+  transform: translateY(-5px);
+}
+
+.item-4 {
+  width: auto;
+  height: auto;
+  background: rgb(240, 186, 8);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/twitter.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.item-4:hover {
+  transform: translateY(-5px);
+}
+
+.item-5 {
+  width: auto;
+  height: auto;
+  background: rgba(139, 57, 9, 0.516);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/spotify.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+
+.item-5:hover {
+  transform: translateY(-5px);
+}
+
+.item-6 {
+  width: auto;
+  height: auto;
+  background: #75ff00;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/explorer.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.item-6:hover {
+  transform: translateY(-5px);
+}
+
+.item-7 {
+  width: auto;
+  height: auto;
+  background: rgb(66, 21, 189);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/word.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 4/5;
+  grid-row: 3/5;
+}
+
+.item-7:hover {
+  transform: translateY(-5px);
+}
+
+.item-8 {
+  width: auto;
+  height: auto;
+  background: rgba(216, 26, 83);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/excel.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+.item-8:hover {
+  transform: translateY(-5px);
+}
+
+.item-9 {
+  width: auto;
+  height: auto;
+  background: rgb(128, 14, 169);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(../assets/img\ layout\ flex\ dan\ grid/chrome.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+.item-9:hover {
+  transform: translateY(-5px);
+}
+
+.item-10 {
+  width: 100%;
+  height: 50%;
+  background: #00ffc4;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-position: center center;
+  transition: transform 0.3s ease-in-out;
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.item-10:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
